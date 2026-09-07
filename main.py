@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # Change model_name to whichever tool-calling model you pulled in Ollama
     agent = Agent(model_name="qwen2.5:7b", registry=registry)
 
-    print("🤖 Agent Framework initialized. Ask a question (type 'exit' to quit):\n")
+    print(" Agent Framework initialized. Ask a question (type 'exit' to quit):\n")
     
     while True:
         try:
