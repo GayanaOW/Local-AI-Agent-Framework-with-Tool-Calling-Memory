@@ -17,7 +17,7 @@ def multiply_numbers(a: float, b: float) -> float:
 
 if __name__ == "__main__":
     # Change model_name to whichever tool-calling model you pulled in Ollama
-    agent = Agent(model_name="qwen2.5:7b", registry=registry)
+    agent = Agent(model_name="qwen2.5:3b", registry=registry)
 
     print(" Agent Framework initialized. Ask a question (type 'exit' to quit):\n")
     
